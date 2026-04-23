@@ -64,7 +64,7 @@ Alexey Smirnov                   637    15%
 
 ### Поддерживаемые расширения файлов
 
-Расширения файлов для анализа определяются в строке 10 [`git-blame-analyzer.sh`](git-blame-analyzer.sh) в регулярном выражении: ```bash
+Расширения файлов для анализа определяются в строке 17 [`git-blame-analyzer.sh`](git-blame-analyzer.sh) в регулярном выражении: ```bash
 grep -E '\.(kt|sql|ya?mlf|xml|properties)$'
 ```
 
